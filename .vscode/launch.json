@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.cc.java.test.App",
+            "projectName": "02_Design_Patterns_63e0d169"
+        },
+        {
+            "type": "java",
+            "name": "Java-Launcher",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "internalConsole",
+            "vmArgs": [
+                "-Dfile.encoding=UTF-8",
+                "-Dsun.stdout.encoding=UTF-8",
+                "-Dsun.stderr.encoding=UTF-8"
+            ]
+        }
+    ]
+}
